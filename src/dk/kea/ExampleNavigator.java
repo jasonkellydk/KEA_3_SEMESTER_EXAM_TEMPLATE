@@ -9,7 +9,15 @@ public class ExampleNavigator
     /**
      * Define all the examples in this array
      */
-    public ExampleInterface[] objectArray = {};
+    public ExampleInterface[] objectArray = {
+            new SelectionSortExample(),
+            new InsertionSortExample(),
+            new ShellSortExample(),
+            new MergeSortExample(),
+            new QuickSortExample(),
+            new RadixSortExample(),
+            new ComparisonExample()
+    };
 
     /**
      * Give a list of examples
